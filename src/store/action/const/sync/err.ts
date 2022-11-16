@@ -1,0 +1,3 @@
+export const ACTION_ERR = {
+    PATIENT_DEL: 'ACTION_ERR_PATIENT_DEL'
+}

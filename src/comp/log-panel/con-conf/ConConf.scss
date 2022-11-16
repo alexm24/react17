@@ -1,0 +1,52 @@
+.con-conf {
+    display: flex;
+    flex-direction: column;
+    margin: 0 12px 12px 12px;
+    background: white;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.conf-log-header{
+    display: flex;
+    padding: 0 4px;
+    span {
+        margin: 4px;
+    }
+}
+.conf-log-main {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    overflow-y: auto;
+    padding: 4px;
+}
+.conf-log-main-item {
+    display: flex;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.54);
+    span {
+        margin: 4px;
+    }
+}
+
+.conf-log-main-item--server {
+    min-width: 135px;
+    width: 135px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.conf-log-main-item--time{
+    min-width: 150px;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.conf-log-main-item--user{
+    min-width: 240px;
+    width: 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

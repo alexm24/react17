@@ -1,0 +1,33 @@
+export interface IConfSession {
+    conferenceClientCategory: string;
+    conferenceClientType: number;
+    conferenceClientVersion: string;
+    conferenceInstance: string;
+    conferenceUri: string;
+    diagnosticId: number;
+    dialogId: string;
+    edgeServer: string;
+    endTime: string;
+    frontEnd: string;
+    gateway: any;
+    inviteTime: string;
+    isEndedByConfServer: boolean;
+    isStartedByConfServer: boolean;
+    isUserInternal: boolean;
+    mcuConferenceUri: any;
+    mcuConferenceUriType: string;
+    mediationServer: any;
+    pool: string;
+    referredByUri: any;
+    referredByUriType: any;
+    responseCode: number;
+    responseTime: string;
+    sessionIdSeq: number;
+    sessionIdTime: string;
+    userClientCategory: string;
+    userClientType: number;
+    userClientVersion: string;
+    userEndpointId: string;
+    userUri: string;
+    userUriType: string;
+}

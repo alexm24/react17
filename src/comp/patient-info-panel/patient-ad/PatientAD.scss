@@ -1,0 +1,11 @@
+.patient-ad {
+    padding: 8px 0;
+}
+.patient-ad-field {
+    display: flex;
+    font-size: 20px;
+    > span:first-child {
+        font-weight: 700;
+        width: 125px;
+    }
+}

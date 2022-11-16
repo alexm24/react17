@@ -1,0 +1,21 @@
+.header-menu {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    color: #fff;
+    background-color: #1976d2;
+    padding: 8px 24px 8px 24px;
+    font-size: 20px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    .account-circle {
+        margin-left: auto;
+        display: flex;
+        > span {
+            margin-right: 8px;
+        }
+        svg {
+            fill: white;
+        }
+    }
+}

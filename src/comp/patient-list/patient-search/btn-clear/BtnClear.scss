@@ -1,0 +1,11 @@
+.patient-input-btn-clear {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: -6px;
+    padding: 8px;
+    right: 0;
+    svg {
+        fill:rgba(0, 0, 0, 0.54);
+    }
+}

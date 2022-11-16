@@ -1,0 +1,22 @@
+.patient-connect {
+}
+.patient-connect-item {
+    display: flex;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.54);
+    height: 24px;
+    > .item--device {
+        display: flex;
+        align-items: center;
+        min-width: 500px;
+    }
+    > .item--time {
+        display: flex;
+        align-items: center;
+        min-width: 165px;
+    }
+    > .item--server {
+        display: flex;
+        align-items: center;
+        min-width: 125px;
+    }
+}

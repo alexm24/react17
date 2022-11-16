@@ -1,0 +1,56 @@
+.patient-item {
+    display: flex;
+    cursor: pointer;
+    padding: 8px 16px;
+    &:hover {
+        background: #e4e4e4;
+    }
+}
+
+.patient-item--sel {
+    background: #e4e4e4;
+}
+
+.patient-avatar {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    padding: 8px;
+    svg {
+        fill: rgba(0, 0, 0, 0.54);
+    }
+}
+.patient-fullname {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+    font-size: 16px;
+    user-select: none;
+    > span {
+        display: flex;
+        align-items: center;
+        height: 24px;
+    }
+}
+
+.patient-ctrl {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    > button {
+        display: flex;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        background: none;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.04);
+        }
+
+        svg {
+            fill: rgba(0, 0, 0, 0.54);
+        }
+    }
+}
